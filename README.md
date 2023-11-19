@@ -76,6 +76,24 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("DECIPHER")
 ```
 
+### Download and copy all 8 scripts in this repository
+* Dvex000_001_runWrap.sh
+* Dvex000_setupUsingtable.R
+* Dvex001_concatFastq.R
+* Dvex002_NGSpeciesNT.sh
+* Dvex003_copyConsensus.sh
+* Dvex004_FastaheaderRename.sh
+* Dvex005_1_blast_remote.sh
+* Dvex006_1_blastTableOrganise.R
+
+### User changes needed to run the wrapper script: *Dvex000_001_runWrap.sh*
+1. Change the path to the conda script to one appropriate to the account/computer/server that you are using
+   * Example-1 (probably use this one): source "/path/to/conda/etc/profile.d/conda.sh"
+   * Example-2 (if you are using mamba and the previous source command didn't work, use this one): source "/path/to/mambaforge/etc/profile.d/conda.sh"
+2. Change the conda R-envirnoment name in the activate command if your environment name is different (i.e. conda activate *R-Env-Name*)
+3. Within the "DVEX000 SECTION" change the user inputs to the correct user paths
+4. Change the paths for all the remaining scripts called by the wrapper script Dvex000_001_runWrap.sh to the correct user paths
+
 ---
 
 # Individual script summaries
