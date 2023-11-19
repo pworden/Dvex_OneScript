@@ -91,8 +91,8 @@ BiocManager::install("DECIPHER")
    * Example-1 (probably use this one): source "/path/to/conda/etc/profile.d/conda.sh"
    * Example-2 (if you are using mamba and the previous source command didn't work, use this one): source "/path/to/mambaforge/etc/profile.d/conda.sh"
 2. Change the conda R-envirnoment name in the activate command if your environment name is different (i.e. conda activate *R-Env-Name*)
-3. Within the "DVEX000 SECTION" change the user inputs to the correct user paths
-4. Change the paths for all the remaining scripts called by the wrapper script Dvex000_001_runWrap.sh to the correct user paths
+3. Within the *"DVEX000 SECTION"* change the user inputs to the correct user paths
+4. Change the paths for all the remaining scripts called by the wrapper script *Dvex000_001_runWrap.sh* to the correct user paths
 
 ---
 
