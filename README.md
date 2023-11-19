@@ -113,7 +113,7 @@ Rscript $R_scriptPath000 $tableInputPath $parentOutputPath
 
 #### For more details on Dvex000_setupUsingtable.R
 
-<[https://github.com/pworden/Dvex_Scripts#readme](https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md)>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
 
 ---
 
