@@ -1,30 +1,10 @@
-# Sangopore project
+# Sangopore project - Description of scripts
 
 ---
 
-## Conda environment initial set up
+## Overview
 
-### NGSpeciesID
-
-Follow the Conda environment installation instructions at the Github repo
-(<https://github.com/ksahlin/NGSpeciesID>)
-
-#### Additional packages to install into the NGSpeciesID ***Conda*** environment
-
-- r-base (with the following additional R-packages):
-  - Biostrings
-
-   ```bash
-   # If installing Biostrings through R and not Conda
-   # you may need to install BiocManager first -
-       # Get into R enviroment on server
-       # Type: "R" and then:
-   if (!require("BiocManager", quietly = TRUE))
-   install.packages("BiocManager")
-   # Install Biostrings through BiocManager
-   BiocManager::install("Biostrings")
-   # Quit R environment with "quit()"
-   ```
+Below is a detailed description of what the actions of the various scripts that are called by the wrapper bash script *Dvex000_001_runWrap.sh*.
 
 ---
 ---
@@ -605,6 +585,6 @@ Iterates over the summary data and creates DNA sequence alignments using the pai
 # ... (omitted for brevity)
 ```
 
-## Overview
+## Summary
 
 This script is designed for processing blastn output TSV files, refining the data, creating summaries, and visualizing sequence alignments.
