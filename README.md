@@ -131,7 +131,7 @@ Rscript $R_scriptPath000 $tableInputPath $parentOutputPath
 
 #### For more details on Dvex000_setupUsingtable.R
 
-<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Description_of_Scripts.md>
 
 ---
 
@@ -175,7 +175,7 @@ Rscript $R_scriptPath001 $inputAnalysesDirsFile $parentOutputPath
 
 #### For more details on Dvex001_concatFastq.R
 
-<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Description_of_Scripts.md>
 
 ---
 
@@ -205,7 +205,7 @@ bash $bashScript_NGSpeciesNT_002 $parentOutputPath
 
 #### For more details on Dvex002_NGSpeciesNT.sh
 
-<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Description_of_Scripts.md>
 
 ---
 
@@ -228,7 +228,7 @@ bash $Dvex03_copyConsensusScript $parentDir $outDirName
 
 #### For more details on Dvex003_copyConsensus.sh
 
-<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Description_of_Scripts.md>
 
 ---
 
@@ -252,7 +252,7 @@ bash $Dvex004_FastaheaderRename $parentDir
 
 #### For more details on Dvex004_FastaheaderRename.sh
 
-<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Description_of_Scripts.md>
 
 ---
 
@@ -282,7 +282,7 @@ blastn -db $blastDbPath -query $queryInput -outfmt "5" -max_target_seqs 20 -max_
 
 #### For more details on Dvex005_1_blast_remote.sh
 
-<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Description_of_Scripts.md>
 
 ---
 
@@ -331,4 +331,4 @@ This script (Dvex006_1_blastTableOrganise.R) also requires biostrings but that s
 
 #### For more details on Dvex006_1_blastTableOrganise.R
 
-<https://github.com/pworden/Dvex_OneScript/blob/main/Sangopore_FullWorkflow.md>
+<https://github.com/pworden/Dvex_OneScript/blob/main/Description_of_Scripts.md>
