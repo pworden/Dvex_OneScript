@@ -5,9 +5,7 @@
 
 ## Workflow Summary - ***Dvex000_001_runWrap.sh***
 
-The ***Dvex000_001_runWrap.sh*** script takes as inputs one or more barcoded (or unbarcoded) reads from Minion or Gridion (ONT) sequencers, as well as a table of metadata, and uses that information to run ***NGSpeciesID*** which clusters similar reads from each barcode together and finds a consensus from each cluster. Other scripts including one directing blast searchs then correlates infomration so the user can identify species with the closest identity to each consensus.
-
-* See the following site for more detail on all scripts: <https://github.com/pworden/Dvex_Scripts>
+The ***Dvex000_001_runWrap.sh*** script takes as inputs one or more barcoded (or unbarcoded) reads from Minion or Gridion (ONT) sequencers, as well as a table of metadata, and uses that information to run ***NGSpeciesID*** which clusters similar reads from each barcode together and finds a consensus from each cluster. Other scripts including one directing blast searchs then correlates information so the user can identify species with the closest identity to each consensus.
 
 ---
 
