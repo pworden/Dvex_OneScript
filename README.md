@@ -102,6 +102,12 @@ BiocManager::install("DECIPHER")
 
 This R-script is designed to take a table in TSV format and use the data in this table (including paths to files and folders) to calculate the number of analyses needed and for each analysis output needed files or folders. For example there will be one primer (fasta) file for each analysis, and parent analysis folder.
 
+**table of inputs example for Sangopore workflow**
+| barcode_number | parent_fastq_paths | subparent_analysis_name | amplicon_size_bp | variation_bp | primer_F_name | primer_F_seq | primer_R_name | primer_R_seq |
+| -------------- | ------------------ | ----------------------- | ---------------- | ------------ | ------------- | ------------ | ------------- | ------------ |
+| barcode10 | path/to/barcode_folder | barcode10_sPoreOut | 254 | 20 | f_primer_name | ATGCGCTA | r_primer_name | GCTAGCTA |
+| barcode11 | path/to/barcode_folder | barcode11_sPoreOut | 300 | 20 | f_primer_name | ATGCGGTGCTA | r_primer_name | GCTATTAGCTA |
+
 ### Requirements - *Dvex000_setupUsingtable.R*
 
 The "Biostrings" package is required for this script it should have been installed into the r-base environment as described in the summary section above.
